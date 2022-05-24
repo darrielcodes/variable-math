@@ -7,5 +7,5 @@ let cordDistance = "The distance";
 let x3 = (x2 - x1)** 2;
 let y3 = (y2-y1)** 2;
 
-console.log(cordDistance + " is equal to " + (x3 + y3));
+console.log(cordDistance + " is equal to " + Math.sqrt(x3 + y3));
 
